@@ -2,12 +2,12 @@
 PayPal Checkout Java Quarkus
 
 
-#Requirements
+# Requirements
 Java 1.8 Above or Graalvm(optional)
 Maven
 Paypal Sandbox Account
 
-#Quick Setup
+# Quick Setup
 
 Install dependencies:
 ```bash
@@ -19,11 +19,11 @@ To run
 mvn compile quarkus:dev
 ```
 
-The package Id can for this sample can be 1 or 2
+The package Id can for this sample can be 1 or 2;
 1 = 1000php
-2 - 2000php
+2 = 2000php
 
 POST
 http://localhost:8080/paypal/make/payment?packageId=2
 
-it will return a redirect url for paypal transaction
+it will return a redirect url for paypal transaction. Open the link to procced the transaction.
